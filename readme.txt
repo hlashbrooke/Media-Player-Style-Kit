@@ -11,7 +11,7 @@ Change the colors of the WordPress media player right from the Customizer.
 
 == Description ==
 
-The WordPress media player is great and all, but the default styling doesn't fit into too many themes. Couple that with the fact that there aren't a lot of theme developers who add custom styles for the media player and you have the need for this plugin.
+The WordPress media player is great and all, but the default styling doesn't fit into too many themes. Couple that with the fact that there aren't a lot of theme developers who add custom styles for the media player and you have the need for this plugin - a simple way to change your media player colors without writing a single line of code.
 
 **Features**
 

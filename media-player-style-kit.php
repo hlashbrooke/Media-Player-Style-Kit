@@ -2,10 +2,10 @@
 /*
  * Plugin Name: Media Player Style Kit
  * Version: 1.0
- * Plugin URI: http://www.hughlashbrooke.com/
+ * Plugin URI: https://wordpress.org/plugins/media-player-style-kit/
  * Description: Change the colors of the WordPress media player right from the Customizer.
  * Author: Hugh Lashbrooke
- * Author URI: http://www.hughlashbrooke.com/
+ * Author URI: http://hughlashbrooke.com/
  * Requires at least: 4.3
  * Tested up to: 4.4
  *
