@@ -88,6 +88,9 @@ class Media_Player_Style_Kit {
 
 		register_activation_hook( $this->file, array( $this, 'install' ) );
 
+		// Load fonrtend CSS
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_styles' ), 10 );
+
 		// Load custom styles on the frontend
 		add_action( 'wp_print_styles', array( $this, 'print_styles' ), 10 );
 
@@ -117,6 +120,7 @@ class Media_Player_Style_Kit {
 			'main_background' => __( 'Main background', 'media-player-style-kit' ),
 			'border' => __( 'Border', 'media-player-style-kit' ),
 			'text_color' => __( 'Text colour', 'media-player-style-kit' ),
+			'button_color' => __( 'Button colour', 'media-player-style-kit' ),
 			'progress_bar_background' => __( 'Progress bar background', 'media-player-style-kit' ),
 			'current_progress_bar' => __( 'Current progress bar', 'media-player-style-kit' ),
 			'loading_progress_bar' => __( 'Loading progress bar', 'media-player-style-kit' ),
@@ -181,6 +185,12 @@ class Media_Player_Style_Kit {
 			}
 			<?php } ?>
 
+			<?php if( isset( $style_options['button_color'] ) && $style_options['button_color'] ) { ?>
+			.mejs-controls button {
+				color: <?php echo $style_options['button_color']; ?> !important;
+			}
+			<?php } ?>
+
 			<?php if( isset( $style_options['progress_bar_background'] ) && $style_options['progress_bar_background'] ) { ?>
 			.mejs-controls .mejs-time-rail .mejs-time-total {
 				background: <?php echo $style_options['progress_bar_background']; ?> !important;
@@ -214,6 +224,17 @@ class Media_Player_Style_Kit {
 		</style>
 		<?php
 	}
+
+	/**
+	 * Load frontend CSS
+	 * @access  public
+	 * @since   1.0.0
+	 * @return void
+	 */
+	public function enqueue_styles () {
+		wp_register_style( $this->_token . '-frontend', esc_url( $this->assets_url ) . 'css/frontend.css', array( 'dashicons' ), $this->_version );
+		wp_enqueue_style( $this->_token . '-frontend' );
+	} // End enqueue_styles ()
 
 	/**
 	 * Load plugin localisation

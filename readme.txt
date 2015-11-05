@@ -16,8 +16,9 @@ The WordPress media player is great and all, but the default styling doesn't fit
 **Features**
 
 - Easily editable colors in the familiar Customizer interface
-- No need for writing custom CSS or other code
+- No need for writing custom CSS or any other code
 - Live previews of color changes inside the Customizer
+- Replaces the media player buttons with the WordPress Dashicons font for easy customization
 
 == Installation ==
 
@@ -29,13 +30,13 @@ Installing "Media Player Style Kit" can be done either by searching for "Media P
 
 == Screenshots ==
 
-1. The Customizer controls for the media player colors
+1. The new Customizer controls for the media player colors
 
 == Frequently Asked Questions ==
 
 = Where do I find the color options? =
 
-You will find the color controls for the media player under the 'Media Player' section of the WordPress Customizer.
+You will find the color controls for the media player under the new 'Media Player' section of the WordPress Customizer.
 
 == Changelog ==
 

@@ -14,7 +14,18 @@
 
   wp.customize( 'media_player_styles[text_color]', function( value ) {
     value.bind( function( to ) {
-      $( '.mejs-container *' ).attr( 'style', $( '.mejs-container *' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+      $( '.mejs-container .mejs-time .mejs-currenttime' ).attr( 'style', $( '.mejs-container .mejs-time .mejs-currenttime' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+      $( '.mejs-container .mejs-time .mejs-duration' ).attr( 'style', $( '.mejs-container .mejs-time .mejs-duration' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+    } );
+  } );
+
+  wp.customize( 'media_player_styles[button_color]', function( value ) {
+    value.bind( function( to ) {
+      $( '.mejs-controls .mejs-play button' ).attr( 'style', $( '.mejs-controls .mejs-play button' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+      $( '.mejs-controls .mejs-pause button' ).attr( 'style', $( '.mejs-controls .mejs-pause button' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+      $( '.mejs-controls .mejs-fullscreen-button button' ).attr( 'style', $( '.mejs-controls .mejs-fullscreen-button button' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+      $( '.mejs-controls .mejs-mute button' ).attr( 'style', $( '.mejs-controls .mejs-mute button' ).attr( 'style' ) + '; color: ' + to + ' !important' );
+      $( '.mejs-controls .mejs-unmute button' ).attr( 'style', $( '.mejs-controls .mejs-unmute button' ).attr( 'style' ) + '; color: ' + to + ' !important' );
     } );
   } );
 

@@ -1,0 +1,8 @@
+.mejs-controls .mejs-button button{background:none !important;font-size:150% !important;line-height:1 !important;}
+.mejs-controls .mejs-button button:before{font-family:dashicons;}
+.mejs-controls .mejs-play button:before {content:"\f522";}
+.mejs-controls .mejs-pause button:before{content:"\f523";}
+.mejs-controls .mejs-mute button:before{content:"\f521";}
+.mejs-controls .mejs-unmute button:before{content:"\f520";}
+.mejs-controls .mejs-fullscreen-button button:before{content:"\f211";}
+.mejs-controls .mejs-fullscreen-button.mejs-unfullscreen button:before{content:"\f506";}
