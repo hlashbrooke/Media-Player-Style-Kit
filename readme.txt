@@ -11,7 +11,7 @@ Change the colors of the WordPress media player right from the Customizer.
 
 == Description ==
 
-The WordPress media player is great and all, but the default styling doesn't fit into too many themes. Couple that with the fact that there aren't a lot of theme developers who add custom styles for the media player and you have the need for this plugin - a simple way to change your media player colors without writing a single line of code.
+The WordPress media player is great and all, but the default styling doesn't fit into too many themes. Couple that with the fact that there aren't a lot of theme developers who add custom styles for the media player and you have the need for Media Player Style Kit - a simple way to change your media player colors without writing a single line of code.
 
 **Features**
 
@@ -19,6 +19,12 @@ The WordPress media player is great and all, but the default styling doesn't fit
 - No need to write custom CSS or any other code
 - Live previews of color changes inside the Customizer
 - Replaces the media player buttons with the WordPress Dashicons font for easy customization
+
+Media Player Style Kit will work with any WordPress site, but I originally built it with [Seriously Simple Podcasting](https://wordpress.org/plugins/seriously-simple-podcasting/) in mind.
+
+**How to contribute**
+
+If you want to contribute to Media Player Style Kit, you can [fork the GitHub repository](https://github.com/hlashbrooke/Media-Player-Style-Kit) - all pull requests will be reviewed and merged if they fit into the goals for the plugin.
 
 == Installation ==
 
