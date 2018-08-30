@@ -119,8 +119,8 @@ class Media_Player_Style_Kit {
 		$colour_options = array(
 			'main_background' => __( 'Main background', 'media-player-style-kit' ),
 			'border' => __( 'Border', 'media-player-style-kit' ),
-			'text_color' => __( 'Text colour', 'media-player-style-kit' ),
-			'button_color' => __( 'Button colour', 'media-player-style-kit' ),
+			'text_color' => __( 'Text color', 'media-player-style-kit' ),
+			'button_color' => __( 'Button color', 'media-player-style-kit' ),
 			'progress_bar_background' => __( 'Progress bar background', 'media-player-style-kit' ),
 			'current_progress_bar' => __( 'Current progress bar', 'media-player-style-kit' ),
 			'loading_progress_bar' => __( 'Loading progress bar', 'media-player-style-kit' ),
