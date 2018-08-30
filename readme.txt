@@ -1,8 +1,8 @@
 === Media Player Style Kit ===
 Contributors: hlashbrooke
 Tags: media player, media, player, style, kit, audio, video, css, colour picker, color picker, customizer, colour, color
-Requires at least: 4.3
-Tested up to: 4.4
+Requires at least: 4.6
+Tested up to: 4.9.8
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,12 +46,15 @@ You will find the color controls for the media player under the new 'Media Playe
 
 == Changelog ==
 
+= 1.0.1 =
+* 2018-08-30
+* Initial release
+
 = 1.0 =
 * 2015-11-05
 * Initial release
 
 == Upgrade Notice ==
 
-= 1.0 =
-* 2015-11-05
-* Initial release
+= 1.0.1 =
+* 2018-08-30 - Updating core plugin to the en_US locale with localization being available on translate.wordpress.org for other locales.
